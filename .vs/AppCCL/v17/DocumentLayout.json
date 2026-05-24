@@ -1,0 +1,360 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|c:\\users\\usuario\\source\\repos\\appccl\\appccl\\appccl\\services\\movimientoinventarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|solutionrelative:appccl\\services\\movimientoinventarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|c:\\users\\usuario\\source\\repos\\appccl\\appccl\\appccl\\models\\databasecclcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|solutionrelative:appccl\\models\\databasecclcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|c:\\users\\usuario\\source\\repos\\appccl\\appccl\\appccl\\models\\movimientosinventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|solutionrelative:appccl\\models\\movimientosinventario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|c:\\users\\usuario\\source\\repos\\appccl\\appccl\\appccl\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|solutionrelative:appccl\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|c:\\users\\usuario\\source\\repos\\appccl\\appccl\\appccl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|solutionrelative:appccl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|c:\\users\\usuario\\source\\repos\\appccl\\appccl\\appccl\\repository\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|solutionrelative:appccl\\repository\\productorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|c:\\users\\usuario\\source\\repos\\appccl\\appccl\\appccl\\interfaces\\imovimientoinventarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|solutionrelative:appccl\\interfaces\\imovimientoinventarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|c:\\users\\usuario\\source\\repos\\appccl\\appccl\\appccl\\repository\\movimientoinventariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|solutionrelative:appccl\\repository\\movimientoinventariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|c:\\users\\usuario\\source\\repos\\appccl\\appccl\\appccl\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|solutionrelative:appccl\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|c:\\users\\usuario\\source\\repos\\appccl\\appccl\\appccl\\interfaces\\imovimientoinventariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|solutionrelative:appccl\\interfaces\\imovimientoinventariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|c:\\users\\usuario\\source\\repos\\appccl\\appccl\\appccl\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|solutionrelative:appccl\\controllers\\productoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|c:\\users\\usuario\\source\\repos\\appccl\\appccl\\appccl\\dtos\\movimientoinventariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|solutionrelative:appccl\\dtos\\movimientoinventariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|c:\\users\\usuario\\source\\repos\\appccl\\appccl\\appccl\\dtos\\crearproductodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|solutionrelative:appccl\\dtos\\crearproductodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|c:\\users\\usuario\\source\\repos\\appccl\\appccl\\appccl\\dtos\\actualizarproductodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|solutionrelative:appccl\\dtos\\actualizarproductodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|c:\\users\\usuario\\source\\repos\\appccl\\appccl\\appccl\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|solutionrelative:appccl\\services\\productoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|c:\\users\\usuario\\source\\repos\\appccl\\appccl\\appccl\\interfaces\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|solutionrelative:appccl\\interfaces\\iproductorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|c:\\users\\usuario\\source\\repos\\appccl\\appccl\\appccl\\controllers\\movimientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|solutionrelative:appccl\\controllers\\movimientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|c:\\users\\usuario\\source\\repos\\appccl\\appccl\\appccl\\interfaces\\iproductoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|solutionrelative:appccl\\interfaces\\iproductoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|c:\\users\\usuario\\source\\repos\\appccl\\appccl\\appccl\\appccl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|solutionrelative:appccl\\appccl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|c:\\users\\usuario\\source\\repos\\appccl\\appccl\\appccl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C54559B9-49F4-4481-9739-B816009FCCB5}|AppCCL\\AppCCL.csproj|solutionrelative:appccl\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Producto.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Models\\Producto.cs",
+              "RelativeDocumentMoniker": "AppCCL\\Models\\Producto.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Models\\Producto.cs",
+              "RelativeToolTip": "AppCCL\\Models\\Producto.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAtwA8AAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T15:26:58.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataBaseCclContext.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Models\\DataBaseCclContext.cs",
+              "RelativeDocumentMoniker": "AppCCL\\Models\\DataBaseCclContext.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Models\\DataBaseCclContext.cs",
+              "RelativeToolTip": "AppCCL\\Models\\DataBaseCclContext.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAD4v0QAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T15:25:13.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MovimientoInventarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Repository\\MovimientoInventarioRepository.cs",
+              "RelativeDocumentMoniker": "AppCCL\\Repository\\MovimientoInventarioRepository.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Repository\\MovimientoInventarioRepository.cs",
+              "RelativeToolTip": "AppCCL\\Repository\\MovimientoInventarioRepository.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T14:48:49.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MovimientoInventarioService.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Services\\MovimientoInventarioService.cs",
+              "RelativeDocumentMoniker": "AppCCL\\Services\\MovimientoInventarioService.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Services\\MovimientoInventarioService.cs",
+              "RelativeToolTip": "AppCCL\\Services\\MovimientoInventarioService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAD4vzMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T14:53:01.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Repository\\ProductoRepository.cs",
+              "RelativeDocumentMoniker": "AppCCL\\Repository\\ProductoRepository.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Repository\\ProductoRepository.cs",
+              "RelativeToolTip": "AppCCL\\Repository\\ProductoRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvxkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T14:32:12.275Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Program.cs",
+              "RelativeDocumentMoniker": "AppCCL\\Program.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Program.cs",
+              "RelativeToolTip": "AppCCL\\Program.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T13:57:07.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "AppCCL\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "AppCCL\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAIA3wB4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T15:07:46.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MovimientosInventario.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Models\\MovimientosInventario.cs",
+              "RelativeDocumentMoniker": "AppCCL\\Models\\MovimientosInventario.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Models\\MovimientosInventario.cs",
+              "RelativeToolTip": "AppCCL\\Models\\MovimientosInventario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T15:26:54.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IMovimientoInventarioService.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Interfaces\\IMovimientoInventarioService.cs",
+              "RelativeDocumentMoniker": "AppCCL\\Interfaces\\IMovimientoInventarioService.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Interfaces\\IMovimientoInventarioService.cs",
+              "RelativeToolTip": "AppCCL\\Interfaces\\IMovimientoInventarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T14:52:16.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IMovimientoInventarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Interfaces\\IMovimientoInventarioRepository.cs",
+              "RelativeDocumentMoniker": "AppCCL\\Interfaces\\IMovimientoInventarioRepository.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Interfaces\\IMovimientoInventarioRepository.cs",
+              "RelativeToolTip": "AppCCL\\Interfaces\\IMovimientoInventarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T14:35:42.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MovimientoInventarioDto.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\DTOs\\MovimientoInventarioDto.cs",
+              "RelativeDocumentMoniker": "AppCCL\\DTOs\\MovimientoInventarioDto.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\DTOs\\MovimientoInventarioDto.cs",
+              "RelativeToolTip": "AppCCL\\DTOs\\MovimientoInventarioDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T14:30:21.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CrearProductoDto.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\DTOs\\CrearProductoDto.cs",
+              "RelativeDocumentMoniker": "AppCCL\\DTOs\\CrearProductoDto.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\DTOs\\CrearProductoDto.cs",
+              "RelativeToolTip": "AppCCL\\DTOs\\CrearProductoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T14:29:37.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ActualizarProductoDto.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\DTOs\\ActualizarProductoDto.cs",
+              "RelativeDocumentMoniker": "AppCCL\\DTOs\\ActualizarProductoDto.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\DTOs\\ActualizarProductoDto.cs",
+              "RelativeToolTip": "AppCCL\\DTOs\\ActualizarProductoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T14:30:00.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ProductoService.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Services\\ProductoService.cs",
+              "RelativeDocumentMoniker": "AppCCL\\Services\\ProductoService.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Services\\ProductoService.cs",
+              "RelativeToolTip": "AppCCL\\Services\\ProductoService.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAADgvzsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T14:50:54.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IProductoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Interfaces\\IProductoRepository.cs",
+              "RelativeDocumentMoniker": "AppCCL\\Interfaces\\IProductoRepository.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Interfaces\\IProductoRepository.cs",
+              "RelativeToolTip": "AppCCL\\Interfaces\\IProductoRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAYwA4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T14:31:42.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductosController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Controllers\\ProductosController.cs",
+              "RelativeDocumentMoniker": "AppCCL\\Controllers\\ProductosController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Controllers\\ProductosController.cs",
+              "RelativeToolTip": "AppCCL\\Controllers\\ProductosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T15:15:36.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MovimientosController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Controllers\\MovimientosController.cs",
+              "RelativeDocumentMoniker": "AppCCL\\Controllers\\MovimientosController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Controllers\\MovimientosController.cs",
+              "RelativeToolTip": "AppCCL\\Controllers\\MovimientosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T15:16:37.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IProductoService.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Interfaces\\IProductoService.cs",
+              "RelativeDocumentMoniker": "AppCCL\\Interfaces\\IProductoService.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\Interfaces\\IProductoService.cs",
+              "RelativeToolTip": "AppCCL\\Interfaces\\IProductoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-24T14:50:25.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppCCL",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\AppCCL.csproj",
+              "RelativeDocumentMoniker": "AppCCL\\AppCCL.csproj",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\AppCCL.csproj",
+              "RelativeToolTip": "AppCCL\\AppCCL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-23T15:24:59.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\appsettings.json",
+              "RelativeDocumentMoniker": "AppCCL\\appsettings.json",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\AppCCL\\AppCCL\\AppCCL\\appsettings.json",
+              "RelativeToolTip": "AppCCL\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-23T15:09:24.262Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
