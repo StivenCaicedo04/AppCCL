@@ -1,5 +1,6 @@
 ﻿using AppCCL.DTOs;
 using AppCCL.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AppCCL.Controllers
@@ -15,6 +16,7 @@ namespace AppCCL.Controllers
             _service = service;
         }
 
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> ObtenerTodos()
         {
@@ -23,6 +25,7 @@ namespace AppCCL.Controllers
             return Ok(productos);
         }
 
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> Crear(CrearProductoDto dto)
         {
@@ -31,6 +34,7 @@ namespace AppCCL.Controllers
             return Ok();
         }
 
+        [Authorize]
         [HttpPut("{id}")]
         public async Task<IActionResult> Actualizar(int id, ActualizarProductoDto dto)
         {
@@ -42,6 +46,7 @@ namespace AppCCL.Controllers
             return Ok();
         }
 
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<IActionResult> Eliminar(int id)
         {

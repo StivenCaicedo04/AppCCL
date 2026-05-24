@@ -1,5 +1,6 @@
 ﻿using AppCCL.DTOs;
 using AppCCL.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AppCCL.Controllers
@@ -15,6 +16,7 @@ namespace AppCCL.Controllers
             _service = service;
         }
 
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> RegistrarMovimiento(MovimientoInventarioDto dto)
         {
@@ -26,6 +28,7 @@ namespace AppCCL.Controllers
             return Ok();
         }
 
+        [Authorize]
         [HttpGet]
         public async Task<IActionResult> ObtenerMovimientos()
         {
