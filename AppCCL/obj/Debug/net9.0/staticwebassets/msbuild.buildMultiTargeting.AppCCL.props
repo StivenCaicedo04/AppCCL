@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AppCCL.props" />
+</Project>

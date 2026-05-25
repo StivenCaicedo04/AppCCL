@@ -1,6 +1,8 @@
 ﻿using AppCCL.DTOs;
 using AppCCL.Interfaces;
 using AppCCL.Models;
+using AppCCL.Repository;
+using Microsoft.EntityFrameworkCore;
 
 namespace AppCCL.Services
 {
@@ -13,14 +15,31 @@ namespace AppCCL.Services
             _repository = repository;
         }
 
-        public async Task<IEnumerable<Producto>> ObtenerTodos()
+        public async Task<IEnumerable<ProductoDto>> ObtenerTodos()
         {
-            return await _repository.ObtenerTodos();
+            var productos = await _repository.ObtenerTodos();
+
+            return productos.Select(p => new ProductoDto
+            {
+                Id = p.Id,
+                Nombre = p.Nombre,
+                Stock = p.Stock
+            });
         }
 
-        public async Task<Producto> ObtenerPorId(int id)
+        public async Task<ProductoDto?> ObtenerPorId(int id)
         {
-            return await _repository.ObtenerPorId(id);
+            var producto = await _repository.ObtenerPorId(id);
+
+            if (producto == null)
+                return null;
+
+            return new ProductoDto
+            {
+                Id = producto.Id,
+                Nombre = producto.Nombre,
+                Stock = producto.Stock
+            };
         }
 
         public async Task Crear(CrearProductoDto dto)
@@ -28,7 +47,8 @@ namespace AppCCL.Services
             var producto = new Producto
             {
                 Nombre = dto.Nombre,
-                Stock = dto.Stock
+                Stock = dto.Stock,
+                Fechacreacion = DateTime.Now
             };
 
             await _repository.Crear(producto);
@@ -36,13 +56,17 @@ namespace AppCCL.Services
 
         public async Task<bool> Actualizar(int id, ActualizarProductoDto dto)
         {
-            var producto = await _repository.ObtenerPorId(id);
+            var productoDto = await _repository.ObtenerPorId(id);
 
-            if (producto == null)
+            if (productoDto == null)
                 return false;
 
-            producto.Nombre = dto.Nombre;
-            producto.Stock = dto.Stock;
+            var producto = new Producto
+            {
+                Id = id,
+                Nombre = dto.Nombre,
+                Stock = dto.Stock
+            };
 
             await _repository.Actualizar(producto);
 
@@ -51,10 +75,15 @@ namespace AppCCL.Services
 
         public async Task<bool> Eliminar(int id)
         {
-            var producto = await _repository.ObtenerPorId(id);
+            var productoDto = await _repository.ObtenerPorId(id);
 
-            if (producto == null)
+            if (productoDto == null)
                 return false;
+
+            var producto = new Producto
+            {
+                Id = productoDto.Id
+            };
 
             await _repository.Eliminar(producto);
 

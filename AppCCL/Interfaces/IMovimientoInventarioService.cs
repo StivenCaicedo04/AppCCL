@@ -7,6 +7,6 @@ namespace AppCCL.Interfaces
     {
         Task<bool> RegistrarMovimiento(MovimientoInventarioDto dto);
 
-        Task<IEnumerable<MovimientosInventario>> ObtenerMovimientos();
+        Task<IEnumerable<MovimientoInventarioDto>> ObtenerMovimientos();
     }
 }

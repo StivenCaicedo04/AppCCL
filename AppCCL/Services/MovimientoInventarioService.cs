@@ -20,29 +20,38 @@ namespace AppCCL.Services
 
         public async Task<bool> RegistrarMovimiento(MovimientoInventarioDto dto)
         {
-            var producto = await _productoRepository.ObtenerPorId(dto.ProductoId);
+            var productoDto = await _productoRepository.ObtenerPorId(dto.ProductoId);
 
-            if (producto == null)
+            if (productoDto == null)
                 return false;
 
-            if (dto.TipoMovimiento.ToUpper() == "ENTRADA")
+            if (dto.TipoMovimiento?.ToUpper() == "ENTRADA")
             {
-                producto.Stock += dto.Cantidad;
+                productoDto.Stock += dto.Cantidad;
             }
-            else if (dto.TipoMovimiento.ToUpper() == "SALIDA")
+            else if (dto.TipoMovimiento?.ToUpper() == "SALIDA")
             {
-                if (producto.Stock < dto.Cantidad)
+                if (productoDto.Stock < dto.Cantidad)
                     return false;
 
-                producto.Stock -= dto.Cantidad;
+                productoDto.Stock -= dto.Cantidad;
             }
 
             var movimiento = new MovimientosInventario
             {
                 ProductoId = dto.ProductoId,
                 TipoMovimiento = dto.TipoMovimiento,
-                Cantidad = dto.Cantidad
+                Cantidad = dto.Cantidad,
+                FechaMovimiento = DateTime.UtcNow
             };
+
+            var producto = new Producto
+            {
+                Id = productoDto.Id,
+                Nombre = productoDto.Nombre,
+                Stock = productoDto.Stock
+            };
+
 
             await _productoRepository.Actualizar(producto);
             await _movimientoRepository.Crear(movimiento);
@@ -50,9 +59,18 @@ namespace AppCCL.Services
             return true;
         }
 
-        public async Task<IEnumerable<MovimientosInventario>> ObtenerMovimientos()
+        public async Task<IEnumerable<MovimientoInventarioDto>> ObtenerMovimientos()
         {
-            return await _movimientoRepository.ObtenerTodos();
+            var movimientos = await _movimientoRepository.ObtenerTodos();
+
+            return movimientos.Select(m => new MovimientoInventarioDto
+            {
+                Id = m.Id,
+                ProductoId = m.ProductoId,
+                Cantidad = m.Cantidad,
+                TipoMovimiento = m.TipoMovimiento,
+                Fecha = m.FechaMovimiento
+            });
         }
     }
 }

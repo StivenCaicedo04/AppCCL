@@ -1,4 +1,5 @@
 ﻿using AppCCL.Data;
+using AppCCL.DTOs;
 using AppCCL.Interfaces;
 using AppCCL.Models;
 using Microsoft.EntityFrameworkCore;
@@ -19,10 +20,26 @@ namespace AppCCL.Repository
             return await _context.Productos.ToListAsync();
         }
 
-        public async Task<Producto> ObtenerPorId(int id)
+        public async Task<ProductoDto> ObtenerPorId(int id)
         {
-            return await _context.Productos.FindAsync(id);
-        }
+            return await _context.Productos
+                .Where(p => p.Id == id)
+                .Select(p => new ProductoDto
+                {
+                    Id = p.Id,
+                    Nombre = p.Nombre,
+                    Stock = p.Stock,
+                    Movimientos = p.MovimientosInventarios.Select(m => new MovimientoInventarioDto
+                    {
+                        Id = m.Id,
+                        ProductoId = p.Id,
+                        TipoMovimiento = m.TipoMovimiento,
+                        Cantidad = m.Cantidad,
+                        Fecha = m.FechaMovimiento
+                    }).ToList()
+                })
+                .FirstOrDefaultAsync(); ;
+                }
 
         public async Task Crear(Producto producto)
         {

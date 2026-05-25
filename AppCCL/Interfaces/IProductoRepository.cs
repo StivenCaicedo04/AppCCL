@@ -1,4 +1,5 @@
-﻿using AppCCL.Models;
+﻿using AppCCL.DTOs;
+using AppCCL.Models;
 
 namespace AppCCL.Interfaces
 {
@@ -6,7 +7,7 @@ namespace AppCCL.Interfaces
     {
         Task<IEnumerable<Producto>> ObtenerTodos();
 
-        Task<Producto> ObtenerPorId(int id);
+        Task<ProductoDto> ObtenerPorId(int id);
 
         Task Crear(Producto producto);
 

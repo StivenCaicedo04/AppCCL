@@ -13,5 +13,5 @@ public partial class Producto
 
     public DateTime? Fechacreacion { get; set; }
 
-    public virtual ICollection<MovimientosInventario> MovimientosInventarios { get; set; } = new List<MovimientosInventario>();
+    public virtual ICollection<MovimientosInventario>? MovimientosInventarios { get; set; } = new List<MovimientosInventario>();
 }

@@ -22,7 +22,6 @@ namespace AppCCL.Controllers
         [HttpPost("login")]
         public IActionResult Login([FromBody] LoginRequest request)
         {
-            // Simulación (aquí validarías en BD)
             if (request.Email == "admin@test.com" && request.Password == "1234")
             {
                 var token = _jwtService.GenerateToken("1", request.Email);

@@ -5,9 +5,9 @@ namespace AppCCL.Interfaces
 {
     public interface IProductoService
     {
-        Task<IEnumerable<Producto>> ObtenerTodos();
+        Task<IEnumerable<ProductoDto>> ObtenerTodos();
 
-        Task<Producto> ObtenerPorId(int id);
+        Task<ProductoDto> ObtenerPorId(int id);
 
         Task Crear(CrearProductoDto dto);
 
